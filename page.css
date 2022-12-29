@@ -1,0 +1,119 @@
+button.learn {
+    width:100px;
+    height:50px;
+    background-color:grey;
+    border-color:silver;
+    color:white;
+    font-size:20px;
+}
+
+.font-mainTitle {
+    margin:0px;
+    font-size:100px;
+    color:#2C599A;
+}
+
+.font-mainSub {
+    margin:0px;
+    font-size:65px;
+    color:silver;
+}
+
+.font-title {
+    font-size:70px;
+}
+
+.font-text {
+    font-size:20px;
+}
+
+.pic {
+    margin-top:20px;
+    margin-right:20px;
+    float:right;
+}
+
+.content {
+    background:silver;
+    padding:20px;
+    margin:10px
+}
+
+.ad {
+    background:silver;
+    padding:10px;
+    margin:10px;
+}
+
+@media (min-width: 1400px) {
+    .content {
+        min-height:600px;
+    }
+    .pic {
+        height:500px
+    }
+}
+@media (min-width: 1180px) and (max-width: 1400px) {
+    .font-title {
+        font-size:60px;
+    }
+    .content{
+        min-height:500px;
+    }
+    .pic {
+        height:400px
+    }
+}
+@media (min-width: 1024px) and (max-width: 1180px) {
+    .font-title {
+        font-size:50px;
+    }
+    .content{
+        min-height:400px;
+    }
+    .pic {
+        height:300px
+    }
+}
+@media (max-width: 1024px) {
+    .pic {
+        display:none;
+    }
+    .tinypic {
+        height:600px;
+    }
+    
+}
+
+#menu {
+    background: #2C599A;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ 
+.li-menu {float: left;}
+.li-right {float: right;}
+ 
+li .a-menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+li .a-menu:hover {
+    background-color: #6D97D5;
+}
+
+#main {
+    text-align:center;
+    margin-top:300px;
+    margin-bottom:300px;
+}
