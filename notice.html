@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>南大村 | Nanda Village</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="page.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="content.js"></script>
 </head>
 
@@ -17,8 +19,15 @@
 <div id="contents"></div>
 
 <script>
-    setMenu();
-    setMain("公告");
+    first = "公告";
+    setContent("公告", "\
+        致村民、同学们：<br><br>\
+        　　根据对接组的调查，已证实北大村有以下不符合规范的行为：<br>\
+        　　一、北大村的成员D--、X--没有依照南大村的要求，没有做到按时学习、积极进取。<br>\
+        　　二、北大村有疑似危害集体的行为<br>\
+        　　三、北大村未安照要求宣传南大村<br><br>\
+        　　因此，我村宣布，北大村不成立。\
+        <div style=\"text-align:right\">南大村村委会<br>南村四月十日");
     setContent("公告", "\
         致村民、同学们：<br><br>\
         　　南大村已于二月十四日进入期末冲刺阶段，预计于二月二十日进入寒假复习阶段。<br><br>\

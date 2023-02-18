@@ -8,7 +8,8 @@ button.learn {
 }
 
 .font-mainTitle {
-    margin:0px;
+    margin:0;
+    padding-top:0;
     font-size:100px;
     color:#2C599A;
 }
@@ -44,8 +45,7 @@ button.learn {
     padding:10px;
     margin:10px;
 }
-
-@media (min-width: 1400px) {
+@media (min-width: 2240px) {
     .content {
         min-height:600px;
     }
@@ -53,7 +53,24 @@ button.learn {
         height:500px
     }
 }
-@media (min-width: 1180px) and (max-width: 1400px) {
+@media (min-width: 1760px) and (max-width: 2240px) {
+    .content {
+        min-height:600px;
+    }
+    .pic {
+        height:500px
+    }
+}
+@media (min-width: 1480px) and (max-width: 1760px) {
+    .content {
+        min-height:600px;
+    }
+    .pic {
+        height:500px
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1480px) {
     .font-title {
         font-size:60px;
     }
@@ -64,25 +81,14 @@ button.learn {
         height:400px
     }
 }
-@media (min-width: 1024px) and (max-width: 1180px) {
-    .font-title {
-        font-size:50px;
-    }
-    .content{
-        min-height:400px;
-    }
-    .pic {
-        height:300px
-    }
-}
-@media (max-width: 1024px) {
+
+@media (max-width: 1150px) {
     .pic {
         display:none;
     }
     .tinypic {
         height:600px;
     }
-    
 }
 
 #menu {
@@ -114,6 +120,12 @@ li .a-menu:hover {
 
 #main {
     text-align:center;
-    margin-top:300px;
-    margin-bottom:300px;
+    background: url(bg.png);
+    background-size:100% 100%;
+    margin-top:60px;
+}
+
+.nda {
+    width:20px;
+    height:20px;
 }
